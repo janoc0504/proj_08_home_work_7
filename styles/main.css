@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+  --grey87: rgba(177, 187, 203, 0.87);
+  --grey27: rgba(255, 255, 255, 0.27);
+  --white: #fff;
+}
+
 body {
   margin: 0;
+  font-family: Roboto;
+  line-height: normal;
+  font-style: normal;
 }
 
 .container {
   max-width: 1000px;
   padding: 0 15;
-  width: 0 auto;
+  margin: 0 auto;
   margin-left: 67px;
 }
 
@@ -33,12 +42,9 @@ body {
   max-width: 244px;
   text-decoration: none;
   text-align: center;
-  color: rgba(177, 187, 203, 0.87);
-  font-family: Roboto;
+  color: var(--grey87);
   font-size: 15px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 main {
@@ -47,31 +53,22 @@ main {
 }
 
 h1 {
-  color: #FFF;
-  font-family: Roboto;
+  color: var(--white);
   font-size: 25px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   padding-bottom: 8px;
 }
 
 .main-txt {
   max-width: 567px;
-  color: #FFF;
-  font-family: Roboto;
+  color: var(--white);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .foot-cont {
-  color: rgba(255, 255, 255, 0.27);
-  font-family: Roboto;
+  color: var(--grey27);
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   padding-bottom: 75px;
 }
