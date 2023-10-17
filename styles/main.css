@@ -7,7 +7,6 @@
 }
 
 body {
-  margin: 0;
   font-family: Roboto;
   line-height: normal;
   font-style: normal;
@@ -17,7 +16,6 @@ body {
   max-width: 1000px;
   padding: 0 15;
   margin: 0 auto;
-  margin-left: 67px;
 }
 
 .wrap {
@@ -28,8 +26,6 @@ body {
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
   flex-grow: 0;
 }
 
@@ -38,13 +34,18 @@ body {
 }
 
 .nav-list {
-  padding-right: 40px;
+  padding-right: 20px;
   max-width: 244px;
   text-decoration: none;
   text-align: center;
   color: var(--grey87);
   font-size: 15px;
   font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.nav-list:last-child {
+  padding-right: 0;
 }
 
 main {
@@ -59,9 +60,9 @@ h1 {
   padding-bottom: 8px;
 }
 
-.main-txt {
-  max-width: 567px;
-  color: var(--white);
+p {
+  max-width: 530px;
+  color: #FFF;
   font-size: 14px;
   font-weight: 400;
 }
