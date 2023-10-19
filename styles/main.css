@@ -14,13 +14,13 @@ body {
 
 .container {
   max-width: 1000px;
-  padding: 0 15;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .wrap {
   min-height: 100vh;
-  background-image: url(../assets/img/background.jpg);
+  background-image: url(../assets/img/back.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -48,19 +48,19 @@ body {
   padding-right: 0;
 }
 
-main {
+.main {
   flex-grow: 1;
   padding-bottom: 149px;
 }
 
-h1 {
+.main-h1 {
   color: var(--white);
   font-size: 25px;
   font-weight: 700;
   padding-bottom: 8px;
 }
 
-p {
+.main-p {
   max-width: 530px;
   color: #FFF;
   font-size: 14px;
