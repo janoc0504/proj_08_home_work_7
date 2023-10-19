@@ -51,6 +51,7 @@ body {
 .main {
   flex-grow: 1;
   padding-bottom: 149px;
+  padding-left: 14px;
 }
 
 .main-h1 {
