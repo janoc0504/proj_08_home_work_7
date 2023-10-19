@@ -51,6 +51,9 @@ body {
 .main {
   flex-grow: 1;
   padding-bottom: 149px;
+}
+
+.main-content {
   padding-left: 14px;
 }
 
